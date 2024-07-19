@@ -1,3 +1,11 @@
-<div class="tw-h-svh tw-flex tw-items-center tw-justify-center">
+<div class="">
   <div>ngx-universe</div>
 </div>
+
+Value: {{ selectValue.value }}
+<div
+  baseSelect
+  searchClass="form-control sm"
+  [options]="options"
+  [formControl]="selectValue"
+></div>

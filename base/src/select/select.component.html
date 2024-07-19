@@ -1,0 +1,30 @@
+<div class="search-select" [class]="{ active: selectActive }" #select>
+  <input
+    type="text"
+    #searchInput
+    [placeholder]="value !== '' ? value : placeholder"
+    (click)="selectActive = true"
+    [class.active]="value !== ''"
+    [class]="className"
+    [disabled]="isDisabled"
+    (keyup)="setSearchTerm($event)"
+  />
+
+  <i class="gg-chevron-down"></i>
+
+  <ul class="select-options">
+    @for (item of filteredOptions(); track $index) {
+    <li
+      [tabindex]="$index"
+      class="select-option"
+      [class]="{ active: item.checked }"
+      (click)="handleCheck($event, item.key)"
+      (keyup)="handleCheck($event, item.key)"
+    >
+      {{ item.label }}
+    </li>
+    } @empty {
+    <li class="no-record-found">No records found</li>
+    }
+  </ul>
+</div>
