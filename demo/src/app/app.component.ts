@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { AppLoader } from 'base';
-import { Select } from '../../../base/src/select/select.component';
+import { Select } from 'base';
 import { options } from './mock';
 import { FormControl, ReactiveFormsModule } from '@angular/forms';
 
