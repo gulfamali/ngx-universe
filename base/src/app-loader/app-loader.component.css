@@ -1,0 +1,47 @@
+/* loader.component.css */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 3px;
+  z-index: 2000;
+}
+
+.linear {
+  width: 0vw;
+  height: 3px;
+  background: #ffaa2a;
+  animation: loader 3s forwards;
+}
+
+@keyframes loader {
+  0% {
+    width: 0vw;
+  }
+  100% {
+    width: 98vw;
+  }
+}
+
+.loader {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-left: 3px solid #3498db;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  animation: spin 0.2s linear infinite;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
