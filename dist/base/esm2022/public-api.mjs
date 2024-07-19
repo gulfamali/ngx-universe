@@ -1,0 +1,7 @@
+/*
+ * Public API Surface of base
+ */
+export * from './lib/base.service';
+export * from './lib/base.component';
+export * from './app-loader/app-loader.component';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL2Jhc2Uvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLG9CQUFvQixDQUFDO0FBQ25DLGNBQWMsc0JBQXNCLENBQUM7QUFDckMsY0FBYyxtQ0FBbUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4gKiBQdWJsaWMgQVBJIFN1cmZhY2Ugb2YgYmFzZVxuICovXG5cbmV4cG9ydCAqIGZyb20gJy4vbGliL2Jhc2Uuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9iYXNlLmNvbXBvbmVudCc7XG5leHBvcnQgKiBmcm9tICcuL2FwcC1sb2FkZXIvYXBwLWxvYWRlci5jb21wb25lbnQnO1xuIl19

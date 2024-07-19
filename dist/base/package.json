@@ -1,0 +1,25 @@
+{
+  "name": "@ngx-universe/base",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^18.0.0",
+    "@angular/core": "^18.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "sideEffects": false,
+  "module": "fesm2022/ngx-universe-base.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2022": "./esm2022/ngx-universe-base.mjs",
+      "esm": "./esm2022/ngx-universe-base.mjs",
+      "default": "./fesm2022/ngx-universe-base.mjs"
+    }
+  }
+}
