@@ -1,0 +1,71 @@
+body {
+  color: #000;
+  background: #eee;
+
+  --card-bg: #fff;
+
+  --theme-color: #05f;
+  --theme-color-dark: #004ee7;
+  --theme-color-light: #09f;
+  --theme-color-faded: #def;
+  --theme-bg-text: #fff;
+
+  --text-primary: #000;
+  --text-link: #06f;
+  --text-faded: #777;
+
+  --border-main: #ddd;
+  --border-dark: #bbb;
+  --border-light: #eee;
+
+  /* SIDEBAR */
+  --sidebar-bg: #fff;
+  --sidebar-border: #ddd;
+
+  --sidebar-item: #000;
+  --sidebar-item-hover: #e2f2ff;
+  --sidebar-item-active: var(--text-link);
+  --sidebar-item-bg-active: #e2f2ff;
+
+  --sidebar-group-title: #888;
+  --sidebar-group-border: #eee;
+
+  /** SCROLLBARS **/
+  --scrollbar-thumb: #0004;
+}
+
+body.dark {
+  color: #fff;
+  background: #000;
+
+  --card-bg: #222;
+
+  --theme-color: #000;
+  --theme-color-dark: #000;
+  --theme-color-light: #444;
+  --theme-color-faded: #666;
+  --theme-bg-text: #fff;
+
+  --text-primary: #fff;
+  --text-link: #ffeb3b;
+  --text-faded: #999;
+
+  --border-main: #666;
+  --border-dark: #333;
+  --border-light: #999;
+
+  /* SIDEBAR */
+  --sidebar-bg: #000;
+  --sidebar-border: #000;
+
+  --sidebar-item: #fff;
+  --sidebar-item-hover: #333;
+  --sidebar-item-active: #ffeb3b;
+  --sidebar-item-bg-active: #555;
+
+  --sidebar-group-title: #999;
+  --sidebar-group-border: #111;
+
+  /** SCROLLBARS **/
+  --scrollbar-thumb: #fff3;
+}

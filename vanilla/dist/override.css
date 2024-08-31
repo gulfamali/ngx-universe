@@ -1,0 +1,142 @@
+.toast-container .ngx-toastr {
+  border-radius: 7px;
+  box-shadow: 0px 0px 12px #0003;
+}
+
+.toast-container .ngx-toastr:hover {
+  box-shadow: none;
+}
+
+.toast-container .toast-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.toast-container .toast-message {
+  font-size: 0.75rem;
+}
+
+.toast-container .toast-error {
+  background-color: #c60e00;
+}
+
+.toast-success {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAOxAAADsQBlSsOGwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAK5SURBVFiFvZfNS1RhFMZ/72g4mlighRJEH8xAgk4RRS5aNMtaK+MfkCC4clMbhWBwkR+4CpQCN/4JtRE/0nQiCgV1VVgZ6mg4lM6Ymfa0uI46w8x4p7njs7tzzn1/z3veO+eea7ApSWXAA8AP+IBLwNn98A/gCzADjAAvjTGbdtc+DuyV9EJSTPYVk/RckicXcLGkLkl/sgAna0fSU0nubOEeSbM5gJMVklRlF35D0pqD8Li+Saq1s/N8wI+aqEwHd0uaySM8rveSiuNc1xEPQay/V751E3gcvzD7u/cC80DhCRgAiAIeY0w4XoFHTsPDm2G6J7oZ+DDA7t/d5HAp0A5gZHW4FaDEKfjyxjLtQ+1EfkUAaKlrwX/Vn5wWA6pcWO3VMfjK5koCHKC8pDxV6mngvgurtzsGbxtqS4AHfAF8VWmfbX8hDj35B/CtQ3ijr5H6mvpMt9UaSd+BiuRIdCdK53gnka0IzXeaqT5f7TQcYM0FlKWKjC2MMRueZWljieBIkLnVOafhAGdc6SLeCi8FpgCA7d1tOkY7mF+ddxIOWJ1wI52B1rutCSaCo4eVSAUP+AJZwYGfRtI74Fa6jMmvk/S+6WVPewC4C9003W5icGaQ9a31g7xsd76vt0ZSP/AwU1ZoMUTPRM+BiWQFfAEaahqyhQP0ubBmuIyqu1iXcBwOwQGGjaRSIIzVmTIquRI5wmOANRvIGiBtaXp5Wl3jXRr+NJzrXNAPh69jD9br+NT/bidL7QDXjDELLgBjzEeg94TgAD3GmIWEX2SNZKFc62pDU5KKUtqSVClpMY/wJUkXMtZGUq2s6dVpLUqqsXVAks5Jeu0gfErpxvEMJookPZEUzQH8W1KH0p25TSOVkp5laSQqqU/SlePWN1kYKcWaH+8B14HLJH6efwamgVHglTEmamfdf9acbyHyp9A9AAAAAElFTkSuQmCC);
+}
+
+.toast-container .toast-error {
+  background-color: #ff3021;
+}
+
+.card {
+  box-shadow: none;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.radio-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #222;
+}
+
+input.date[type='date'] {
+  position: relative;
+}
+
+input.date[type='date']::-webkit-calendar-picker-indicator {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  color: transparent;
+  background: transparent;
+}
+
+.dropdown-menu {
+  box-shadow: 0pt 4pt 10pt #eee;
+  border: 1px solid #ddd;
+  font-size: 0.8rem;
+}
+
+.ngdropdown .nocaret::after {
+  display: none;
+}
+
+.scroll-content-y {
+  overflow-y: auto;
+}
+
+.confirm-modal {
+  max-width: 360px !important;
+}
+
+.confirm-modal .modal-content {
+  border: 0;
+  border-radius: 5px;
+}
+
+.confirm-modal .modal-body {
+  padding: 1.5rem;
+}
+
+.btn-close {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-close.absolute {
+  position: absolute;
+  top: 1rem;
+  right: 0.8rem;
+  font-size: 0.9rem;
+}
+
+.dropdown-toggle::after {
+  display: none !important;
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dropdown-menu {
+  box-shadow: 0pt 4pt 10pt #0002;
+}
+
+.modal-40vw {
+  width: 40vw !important;
+  min-width: fit-content !important;
+  max-width: 100vw !important;
+}
+
+.modal-50vw {
+  width: 50vw !important;
+  min-width: fit-content !important;
+  max-width: 100vw !important;
+}
+
+.modal-60vw {
+  width: 60vw !important;
+  min-width: fit-content !important;
+  max-width: 100vw !important;
+}
+
+.modal-70vw {
+  width: 70vw !important;
+  min-width: fit-content !important;
+  max-width: 100vw !important;
+}
+
+.modal-80vw {
+  width: 80vw !important;
+  min-width: fit-content !important;
+  max-width: 100vw !important;
+}

@@ -36,9 +36,20 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "minify": "^11.4.0",
     "ng-packagr": "^17.2.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
     "typescript": "~5.4.2"
-  }
+  },
+  "keywords": [
+    "@ngx-universe",
+    "@ngx-universe/base",
+    "@ngx-universe/core",
+    "ngx-universe",
+    "angular universe",
+    "ng universe"
+  ],
+  "author": "Gulfam Ali",
+  "license": "ISC"
 }

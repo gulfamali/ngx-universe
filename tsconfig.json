@@ -4,9 +4,8 @@
   "compileOnSave": false,
   "compilerOptions": {
     "paths": {
-      "base": [
-        "./dist/base"
-      ]
+      "base": ["./dist/base"],
+      "core": ["./dist/vanilla"]
     },
     "outDir": "./dist/out-tsc",
     "strict": true,
@@ -24,10 +23,7 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

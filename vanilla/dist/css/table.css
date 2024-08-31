@@ -1,0 +1,168 @@
+.data-table {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.wtable {
+  min-width: 100%;
+  width: 100%;
+  cursor: default;
+}
+
+.wtable thead {
+  background: #fafafa;
+  border-bottom: 1px solid #ddd;
+}
+
+.wtable th,
+.wtable td {
+  padding: 0.5rem 0.7rem;
+}
+
+.wtable thead th {
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.wtable tr {
+  font-size: 0.75rem;
+  color: #000;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.wtable tr:last-child {
+  border: 0;
+}
+
+.datatable-wrapper {
+  background: #fff;
+  padding: 1.2rem 0;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.datatable-wrapper .section {
+  padding: 0 1.2rem;
+}
+
+.datatable-wrapper .data-table {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+.datatable-wrapper .wtable thead th {
+  background: #fafafa;
+}
+
+.table-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.table-actions button::after {
+  display: none;
+}
+
+.table-actions button.show {
+  background: #f5f5f5;
+}
+
+.btn-filters {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.btn-filters button {
+  flex: 1;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border-right: 1px solid #ccc;
+}
+
+.btn-filters button:last-child {
+  border: 0;
+}
+
+.data-actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  color: #000;
+}
+
+.data-actions:hover,
+.data-actions:active {
+  border: 1px solid #ccc;
+}
+
+.card-table {
+  --table-space: 1.2rem;
+  padding: var(--table-space);
+  padding-bottom: 0;
+}
+
+.card-table .paginator {
+  padding: 0.8rem 0;
+}
+
+.card-table .data-table {
+  border-radius: 0;
+  margin-left: calc(var(--table-space) * -1);
+  margin-right: calc(var(--table-space) * -1);
+  border-left: 0;
+  border-right: 0;
+}
+
+.card-table .wtable th:first-child,
+.card-table .wtable td:first-child {
+  padding-left: var(--table-space);
+}
+
+.data-table.scrollable {
+  overflow: auto;
+  padding-bottom: 10px;
+  resize: vertical;
+  border: 0;
+  border-bottom: 1px solid #eee;
+}
+
+.data-table.scrollable .wtable {
+  width: max-content;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.data-table.scrollable .wtable thead th {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.data-table.scrollable .wtable tbody tr td,
+.data-table.scrollable .wtable tbody tr th {
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.data-table.scrollable .wtable tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table.scrollable .wtable thead {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
